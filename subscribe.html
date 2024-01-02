@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter | Thanks for Subscribing</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal Style -->
+    <style>
+        .container{max-width: 480px;}
+        h1, p, img{text-wrap: balance; margin-bottom: 1.5rem;}
+        h1{font-size: 2.5rem; line-height: 1;}
+        img{max-width: 3rem;}
+        main > div{ padding: 1.5rem 2rem 2rem;}
+        .btn{padding-block: .7rem;}
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div>
+            <img src="./assests/images/icon-success.svg" alt="Icon Success">
+            <h1>Thanks for subscribing!</h1>
+            <p>A confirmation emial has been sent to <strong id="email">email@company.com</strong>. Please open it and click the button inside to confirm your subscription.</p>
+            <a href="index.html" class="btn">Dismiss message</a>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script>
+        const urlArr = window.location.href.split('?');
+        const email = document.querySelector('#email');
+        email.innerText = urlArr[1];
+    </script>
+</body>
+</html>
