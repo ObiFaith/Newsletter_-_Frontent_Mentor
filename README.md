@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add solution URL here](https://obifaith.github.io/Newsletter_-_Frontent_Mentor/)
-- Solution URL: [Add live site URL here](https://github.com/ObiFaith/Newsletter_-_Frontent_Mentor)
+- Live Site URL: [link](https://obifaith.github.io/Newsletter_-_Frontent_Mentor/)
+- Solution URL: [link](https://github.com/ObiFaith/Newsletter_-_Frontent_Mentor)
 
 ## My process
 

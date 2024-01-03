@@ -23,5 +23,5 @@ submitBtn.addEventListener('click', event => {
         errorMsg.parentElement.nextElementSibling.classList.add('input-error');
     }
     else
-        window.location.href = `./subscribe.html?${inputValue}`; 
+        window.location.href = `./Newsletter_-_Frontent_Mentor/subscribe.html?${inputValue}`; 
 })
