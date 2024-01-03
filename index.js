@@ -23,5 +23,5 @@ submitBtn.addEventListener('click', event => {
         errorMsg.parentElement.nextElementSibling.classList.add('input-error');
     }
     else
-        window.location.href = `https://obifaith.github.io/Newsletter_-_Frontent_Mentor/subscribe.html?${inputValue}`; 
+        window.location.href = `${window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1)}subscribe.html?${inputValue}`; 
 })
