@@ -61,7 +61,7 @@ img{max-width: 100%;}
 .btn:hover, .btn:focus, form input:valid{cursor: pointer;}
 form label{font-weight: bold; display: block; font-size: 14px;}
 .is_visible{display: inline-block !important;}
-form label.error-msg{color: var(--clr-orange); font-size: 12px; display: none;}
+form .error-msg{color: var(--clr-orange); font-size: 12px; display: none; font-weight: bold;}
 form input{text-indent: 1rem; border: 1px solid var(--neutral-300)}
 form input::placeholder{color: var(--neutral-300);}
 form input.input-error{background-color: hsla(4, 100%, 67%, .2); border-color: var(--clr-orange); color: var(--clr-orange);}
